@@ -1,0 +1,23 @@
+.buttonLive {
+    background-color: #ffffff00;
+    text-align: right;
+    transition: all 0.6s ease;
+}
+
+.buttonLive:hover {
+    background-color: #3654ff;
+    cursor: pointer;
+    color: white;
+}
+.buttonCode {
+    background-color: #ffffff00;
+    text-align: right;
+    transition: all 0.6s ease;
+}
+
+.buttonCode:hover {
+    background-color: #f96c40;
+    cursor: pointer;
+    color: white;
+}
+

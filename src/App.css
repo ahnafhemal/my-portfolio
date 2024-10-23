@@ -1,0 +1,29 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  font-family: Poppins;
+  background-color: #fafafa;
+  color: black;
+  font-size: 15px;
+  min-height: 100vh;
+  background-image: linear-gradient(to right, transparent 0 49px, rgba(12, 12, 12, 0.067) 49px),
+    linear-gradient(to bottom, transparent 0 49px, rgba(5, 5, 5, 0.102) 49px);
+  background-size: 50px 50px;
+
+  &::before {
+    position: fixed;
+    width: 400px;
+    height: 400px;
+    content: '';
+    background-image: linear-gradient(to right, #8603f9, #1100fb);
+    z-index: -1;
+    top: -200px;
+    left: calc(50% - 200px);
+    border-radius: 50% 50% 0% 0%;
+    pointer-events: none;
+    filter: blur(250px);
+  }
+}
